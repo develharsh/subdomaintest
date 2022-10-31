@@ -4,7 +4,7 @@ const Home = () => {
     useEffect(() => {
         const name = prompt("Your Name");
         const username = prompt("Your User Name");
-        if (name && username) window.open(`https://${username}.morefined.com/showmyname?name=${name}`, "_self")
+        if (name && username) window.open(`http://${username}.morefined.com/showmyname?name=${name}`, "_self")
     }, [])
     return (
         <div></div>
